@@ -1,8 +1,17 @@
 import React from "react";
-import { Title } from "../hooks/website-title";
+import { Title } from "../hooks/website-title.jsx";
+import { Header } from "../components/global/header.jsx";
+import { Hero } from "../components/about/hero.jsx";
+import { Footer } from "../components/global/footer.jsx";
 
-export const About = () => {
+export const Index = () => {
   Title("About");
-  
-  return null;
+
+  return (
+    <>
+      <Header />
+      <Hero />
+      <Footer />
+    </>
+  );
 };

@@ -1,12 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+      * {
+        box-sizing: border-box;
+        font-family: "Plus Jakarta Sans", Times, sans-serif, serif;
+        margin: 0;
+        padding: 0;
+      }
+      ::-webkit-scrollbar {
+        display: none !important;
+      }
+      @media screen and (max-width: 8192px) {
+        body {
+          opacity: 0;
+        }
+      }
+      @media screen and (max-width: 3120px) {
+        body {
+          opacity: 1;
+        }
+      }
+      @media screen and (max-width: 324px) {
+        * {
+          display: none;
+        }
+      }
+    </style>
   </head>
-  <body>
+  <body class="overflow-x-hidden" style="background-image: linear-gradient(to right, #0c0c1e, #141414)">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
