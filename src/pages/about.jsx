@@ -4,7 +4,7 @@ import { Header } from "../components/global/header.jsx";
 import { Hero } from "../components/about/hero.jsx";
 import { Footer } from "../components/global/footer.jsx";
 
-export const Index = () => {
+export const About = () => {
   Title("About");
 
   return (
