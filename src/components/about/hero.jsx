@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Hero = () => {
+export const AboutHero = () => {
   return (
     <main>
       <section></section>

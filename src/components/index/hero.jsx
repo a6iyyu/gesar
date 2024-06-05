@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Hero = () => {
+export const IndexHero = () => {
   return (
     <main>
       <section></section>
