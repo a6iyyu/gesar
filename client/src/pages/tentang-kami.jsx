@@ -1,16 +1,16 @@
 import { WebsiteMeta } from "@/common/website-meta.jsx";
 import { ScrollIndicator } from "@/common/scroll-indicator.jsx";
 import { Header } from "@/common/header.jsx";
-import { Redirect } from "@/components/404/redirect.jsx";
+import { TentangKamiHero } from "@/components/tentang-kami/hero.jsx";
 import { Footer } from "@/common/footer.jsx";
 
-export const TidakDitemukan = () => {
+export const TentangKami = () => {
   return (
     <>
-      <WebsiteMeta title="404: Halaman Tidak Ditemukan!" description="Sayang sekali, halaman yang Anda cari tidak ditemukan." />
+      <WebsiteMeta title="Berkenalan Dengan Gesar" description="" />
       <ScrollIndicator />
       <Header />
-      <Redirect />
+      <TentangKamiHero />
       <Footer />
     </>
   );

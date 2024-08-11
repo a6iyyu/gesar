@@ -1,11 +1,11 @@
 import { WebsiteMeta } from "@/common/website-meta";
-import { BlogHero } from "@/components/blog/hero";
+import { KonsultasiHero } from "@/components/konsultasi/hero";
 
-export const Blog = () => {
+export const Konsultasi = () => {
   return (
     <>
       <WebsiteMeta title="" description="" />
-      <BlogHero />
+      <KonsultasiHero />
     </>
   );
 };

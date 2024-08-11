@@ -1,24 +1,25 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { NotFoundPage } from "../pages/404.jsx";
-import { Index } from "../pages/index.jsx";
-import { About } from "../pages/about.jsx";
-import { Blog } from "../pages/blog.jsx";
-import { Chat } from "../pages/chat.jsx";
-import { SignUpPage } from "../pages/sign-up.jsx";
-import { SignInPage } from "../pages/sign-in.jsx";
+import { TidakDitemukan } from "@/pages/404.jsx";
+import { Beranda } from "@/pages/beranda.jsx";
+import { TentangKami } from "@/pages/tentang-kami.jsx";
+import { Blog } from "@/pages/blog.jsx";
+import { Konsultasi } from "@/pages/konsultasi.jsx";
+import { Permainan } from "@/pages/permainan";
+import { Registrasi } from "@/pages/registrasi.jsx";
+import { Masuk } from "@/pages/masuk.jsx";
 
 export const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="*" Component={NotFoundPage} />
-        <Route path="/" Component={Index} />
-        <Route path="/about" Component={About} />
+        <Route path="*" Component={TidakDitemukan} />
+        <Route path="/" Component={Beranda} />
+        <Route path="/tentang-kami" Component={TentangKami} />
         <Route path="/blog" Component={Blog} />
-        <Route path="/chat" Component={Chat} />
-        <Route path="/sign-up" Component={SignUpPage} />
-        <Route path="/sign-in" Component={SignInPage} />
+        <Route path="/konsultasi" Component={Konsultasi} />
+        <Route path="/permainan" Component={Permainan} />
+        <Route path="/registrasi" Component={Registrasi} />
+        <Route path="/masuk" Component={Masuk} />
       </Routes>
     </BrowserRouter>
   );

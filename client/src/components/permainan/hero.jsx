@@ -1,6 +1,4 @@
-import React from "react";
-
-export const AboutHero = () => {
+export const PermainanHero = () => {
   return (
     <main>
       <section></section>

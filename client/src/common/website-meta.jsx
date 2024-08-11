@@ -1,6 +1,6 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-export const WebsiteMeta = (title, description) => {
+export const WebsiteMeta = ({ title, description }) => {
   return (
     <HelmetProvider>
       <Helmet>
