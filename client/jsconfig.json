@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
+    "baseUrl": "./",
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "noEmit": true,
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "ES2020"
+  },
+  "exclude": ["node_modules"]
+}
