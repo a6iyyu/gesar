@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export const ScrollIndicator = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -11,5 +11,5 @@ export const ScrollIndicator = () => {
 
   window.addEventListener("scroll", ScrollPercentage);
 
-  return <section className="fixed z-40 h-1 bg-blue-500" style={{ width: `${scrollProgress}` + "%" }}></section>;
+  return <section className="fixed z-40 h-1 bg-[#009900]" style={{ width: `${scrollProgress}` + "%" }}></section>;
 };
