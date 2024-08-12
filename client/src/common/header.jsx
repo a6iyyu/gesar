@@ -17,7 +17,7 @@ export const Header = () => {
   const Menus = ["Blog", "Konsultasi", "Permainan", "Registrasi"];
 
   return (
-    <header className="mx-auto flex h-24 w-4/5 items-center text-slate-50 lg:h-36">
+    <header className="mx-auto flex h-24 w-4/5 items-center text-[#006400] lg:h-36">
       <section className="flex h-full w-2/5 items-center">
         <Link to="/" className="h-fit w-fit">
           <img src="" alt="Logo" className="font-semibold" />
@@ -25,7 +25,7 @@ export const Header = () => {
       </section>
       <MenuHover className="hidden h-full w-3/5 text-lg font-semibold lg:flex lg:items-center lg:justify-end">
         {Menus.map((menu, i) =>
-          <Link to={`/${menu.toLowerCase().replace(/ /g, "-")}`} key={i} className="mr-14 transition-all duration-300 ease-in-out last:mr-0 last:rounded-lg last:bg-slate-50 last:px-6 last:py-3 last:text-slate-950 hover:text-slate-200 hover:underline last:hover:bg-slate-200 last:hover:text-slate-800 last:hover:no-underline">
+          <Link to={`/${menu.toLowerCase().replace(/ /g, "-")}`} key={i} className="mr-14 transition-all duration-300 ease-in-out last:mr-0 last:rounded-lg last:bg-[#006400] last:px-6 last:py-3 last:text-slate-50 hover:text-[#017b01] hover:underline last:hover:bg-[#017b01] last:hover:text-slate-200 last:hover:no-underline">
             {menu}
           </Link>
         )}
