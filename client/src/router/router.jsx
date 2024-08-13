@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { TidakDitemukan } from "@/pages/404.jsx";
 import { Beranda } from "@/pages/beranda.jsx";
 import { Blog } from "@/pages/blog.jsx";
+import { DetailKaroselBlog } from "@/pages/detail-karosel-blog";
 import { Komunitas } from "@/pages/komunitas";
 import { Konsultasi } from "@/pages/konsultasi.jsx";
 import { Permainan } from "@/pages/permainan";
@@ -16,6 +17,7 @@ export const Router = () => {
         <Route path="*" Component={TidakDitemukan} />
         <Route path="/" Component={Beranda} />
         <Route path="/blog" Component={Blog} />
+        <Route path="/blog/:slug" Component={DetailKaroselBlog} />
         <Route path="/komunitas" Component={Komunitas} />
         <Route path="/konsultasi" Component={Konsultasi} />
         <Route path="/permainan" Component={Permainan} />

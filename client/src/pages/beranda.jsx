@@ -5,6 +5,10 @@ import { ScrollToTop } from "@/common/scroll-to-top";
 import { Header } from "@/common/header.jsx";
 import { BerandaHero } from "@/components/beranda/hero.jsx";
 import { TujuanDanManfaat } from "@/components/beranda/tujuan-dan-manfaat";
+import { BerandaBlog } from "@/components/beranda/blog";
+import { Konsultasi } from "@/components/beranda/konsultasi";
+import { Permainan } from "@/components/beranda/permainan";
+import { KenalLebihDekat } from "@/components/beranda/kenal-lebih-dekat";
 import { KamiTungguAntusiasmu } from "@/components/beranda/kami-tunggu-antusiasmu";
 import { Footer } from "@/common/footer.jsx";
 
@@ -25,6 +29,10 @@ export const Beranda = () => {
       <Header />
       <BerandaHero />
       <TujuanDanManfaat />
+      <BerandaBlog />
+      <Konsultasi />
+      <Permainan />
+      <KenalLebihDekat />
       <KamiTungguAntusiasmu />
       <Footer />
     </>

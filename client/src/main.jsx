@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Router } from "./router/router.jsx";
+import "@splidejs/splide/dist/css/splide.min.css";
 import { createGlobalStyle } from "styled-components";
+import { Router } from "./router/router.jsx";
 
 const GlobalStyles = createGlobalStyle`
   @media screen and (max-width: 8192px) {
