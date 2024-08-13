@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const KamiTungguAntusiasmu = () => {
   return (
-    <main className="z-20 h-fit w-full bg-gradient-to-r from-[#ac906d] to-[#ba8c54] pb-40 pt-20 lg:pb-[7.5rem]">
+    <main className="h-fit w-full bg-gradient-to-r from-[#ac906d] to-[#ba8c54] pb-20 lg:pb-[7.5rem]">
       <section className="mx-auto flex h-full w-4/5 flex-col items-center text-slate-50">
         <h3 className="cursor-default text-3xl font-extrabold">
           Kami Tunggu Antusiasmu!

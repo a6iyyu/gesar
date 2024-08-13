@@ -21,11 +21,11 @@ export const MemuatHalaman = () => {
     <>
       <WebsiteMeta title="Sedang Memuat Halaman . . ." description="Kami sedang menyajikan konten yang terbaik untuk Anda . . ." />
       <Header />
-      <main className="mx-auto mb-40 mt-16 flex h-96 w-4/5 cursor-default flex-col items-center justify-center text-slate-50">
+      <main className="mx-auto mb-40 mt-16 flex h-96 w-4/5 cursor-default flex-col items-center justify-center text-[#006400]">
         <BounceLoading className="flex justify-center">
-          <span className="mx-1 my-12 h-4 w-4 animate-bounce rounded-full bg-slate-50" style={{ animationDelay: "0s" }} />
-          <span className="mx-1 my-12 h-4 w-4 animate-bounce rounded-full bg-slate-50" style={{ animationDelay: "0.2s" }} />
-          <span className="mx-1 my-12 h-4 w-4 animate-bounce rounded-full bg-slate-50" style={{ animationDelay: "0.4s" }} />
+          <span className="mx-1 my-12 h-4 w-4 animate-bounce rounded-full bg-[#006400]" style={{ animationDelay: "0s" }} />
+          <span className="mx-1 my-12 h-4 w-4 animate-bounce rounded-full bg-[#006400]" style={{ animationDelay: "0.2s" }} />
+          <span className="mx-1 my-12 h-4 w-4 animate-bounce rounded-full bg-[#006400]" style={{ animationDelay: "0.4s" }} />
         </BounceLoading>
         <h2 className="text-3xl font-extrabold">Memuat Halaman</h2>
         <h4 className="mt-1.5">Konten Sedang Dimuat, Mohon Ditunggu</h4>

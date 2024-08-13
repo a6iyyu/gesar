@@ -3,7 +3,7 @@ import { HoverSetiapHuruf, HandleMouseEnter, HandleMouseLeave } from "@/utils/ho
 export const BerandaHero = () => {
   return (
     <main className="mx-auto mb-32 mt-24 flex h-fit w-4/5 flex-col-reverse items-center justify-center gap-x-20 text-[#006400] xl:flex-row xl:justify-between">
-      <span className="absolute right-0 top-40 -z-10 h-40 w-40 bg-[#083710] [filter:blur(10rem)]" />
+      <span className="absolute right-0 top-40 -z-10 h-40 w-40 bg-[#083710] [filter:blur(7rem)]" />
       <section className="mt-10 flex h-full w-full cursor-default flex-col items-center text-justify xl:mt-0 xl:items-start">
         <h2 className="hidden text-left text-5xl font-bold [line-height:1.175] xl:inline">
           {HoverSetiapHuruf("Kesehatan Mental Adalah Prioritas", HandleMouseEnter, HandleMouseLeave)}

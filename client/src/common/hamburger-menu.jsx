@@ -20,7 +20,7 @@ const HamburgerAnimated = styled.div`
 
 export const HamburgerMenu = () => {
   const [open, setOpen] = useState(false);
-  const Menus = ["Blog", "Konsultasi", "Permainan", "Registrasi"];
+  const Menus = ["Blog", "Komunitas","Konsultasi", "Permainan"];
 
   useEffect(() => {
     const HandleHamburgerMenu = (e) => {

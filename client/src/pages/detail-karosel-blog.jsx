@@ -17,12 +17,12 @@ export const DetailKaroselBlog = () => {
   const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
-    const ImportMDX = async (judul) => {
+    (async () => {
       setLoading(true);
       try {
-        const MDXFiles = await import(`../content/${slug}.mdx`);
-        setMDXContent(() => MDXFiles);
-        setFrontmatter(MDXFiles.frontmatter);
+        const { default: Component, frontmatter } = await import(`../content/${slug}.mdx`);
+        setMDXContent(() => Component);
+        setFrontmatter(frontmatter);
         setNotFound(false);
       } catch (e) {
         console.error(e);
@@ -30,9 +30,7 @@ export const DetailKaroselBlog = () => {
       } finally {
         setLoading(false);
       }
-    };
-
-    ImportMDX(slug);
+    })();
   }, [slug]);
 
   if (loading) return <MemuatHalaman />;
@@ -40,7 +38,7 @@ export const DetailKaroselBlog = () => {
 
   return (
     <>
-      <WebsiteMeta title={frontmatter.judul} description={frontmatter.deskripsi} />
+      <WebsiteMeta title={frontmatter.judul || "404: Halaman Tidak Ditemukan!"} description={frontmatter.deskripsi || "Sayang sekali, halaman yang Anda cari tidak ditemukan."} />
       <ScrollIndicator />
       <ScrollToTop />
       <Header />
