@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
-  const Menus = [ "Blog", "Komunitas", "Konsultasi", "Permainan", "FAQ", "Tentang Kami", "Kritik & Saran"];
+  const Menus = [ "Blog", "Komunitas", "Konsultasi", "Survei", "FAQ", "Tentang Kami", "Kritik & Saran"];
 
   return (
     <footer className="h-fit w-full bg-gradient-to-r from-[#141b1f] to-[#1a1f25] pb-32 pt-24 lg:-mt-10">

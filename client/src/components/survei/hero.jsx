@@ -1,4 +1,4 @@
-export const PermainanHero = () => {
+export const SurveiHero = () => {
   return (
     <main>
       <section></section>

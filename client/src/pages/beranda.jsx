@@ -7,7 +7,7 @@ import { BerandaHero } from "@/components/beranda/hero.jsx";
 import { TujuanDanManfaat } from "@/components/beranda/tujuan-dan-manfaat";
 import { Konsultasi } from "@/components/beranda/konsultasi";
 import { BerandaBlog } from "@/components/beranda/blog";
-import { Permainan } from "@/components/beranda/permainan";
+import { BerandaSurvei } from "@/components/beranda/survei";
 import { KenalLebihDekat } from "@/components/beranda/kenal-lebih-dekat";
 import { KamiTungguAntusiasmu } from "@/components/beranda/kami-tunggu-antusiasmu";
 import { Footer } from "@/common/footer.jsx";
@@ -31,7 +31,7 @@ export const Beranda = () => {
       <TujuanDanManfaat />
       <Konsultasi />
       <BerandaBlog />
-      <Permainan />
+      <BerandaSurvei />
       <KenalLebihDekat />
       <KamiTungguAntusiasmu />
       <Footer />

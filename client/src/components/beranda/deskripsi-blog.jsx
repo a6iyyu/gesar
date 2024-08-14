@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export const DeskripsiFiturBlog = () => {
+export const DeskripsiBlog = () => {
   return (
     <div className="order-1 flex flex-col justify-center text-center lg:order-none lg:text-left">
       <h3 className="hidden text-3xl font-bold lg:inline">

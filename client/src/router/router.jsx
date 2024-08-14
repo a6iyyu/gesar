@@ -5,7 +5,7 @@ import { Blog } from "@/pages/blog.jsx";
 import { DetailKaroselBlog } from "@/pages/detail-karosel-blog";
 import { Komunitas } from "@/pages/komunitas";
 import { Konsultasi } from "@/pages/konsultasi.jsx";
-import { Permainan } from "@/pages/permainan";
+import { Survei } from "@/pages/survei";
 import { TentangKami } from "@/pages/tentang-kami.jsx";
 import { Registrasi } from "@/pages/registrasi.jsx";
 import { Masuk } from "@/pages/masuk.jsx";
@@ -20,7 +20,7 @@ export const Router = () => {
         <Route path="/blog/:slug" Component={DetailKaroselBlog} />
         <Route path="/komunitas" Component={Komunitas} />
         <Route path="/konsultasi" Component={Konsultasi} />
-        <Route path="/permainan" Component={Permainan} />
+        <Route path="/survei" Component={Survei} />
         <Route path="/tentang-kami" Component={TentangKami} />
         <Route path="/registrasi" Component={Registrasi} />
         <Route path="/masuk" Component={Masuk} />

@@ -14,7 +14,7 @@ const MenuHover = styled.section`
 `;
 
 export const Header = () => {
-  const Menus = ["Blog", "Komunitas", "Konsultasi", "Permainan"];
+  const Menus = ["Blog", "Komunitas", "Konsultasi", "Survei"];
 
   return (
     <header className="mx-auto flex h-24 w-4/5 items-center text-[#006400] xl:h-36">

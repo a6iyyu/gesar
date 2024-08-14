@@ -2,17 +2,17 @@ import { WebsiteMeta } from "@/common/website-meta";
 import { ScrollIndicator } from "@/common/scroll-indicator.jsx";
 import { ScrollToTop } from "@/common/scroll-to-top";
 import { Header } from "@/common/header";
-import { PermainanHero } from "@/components/permainan/hero";
+import { SurveiHero } from "@/components/survei/hero";
 import { Footer } from "@/common/footer.jsx";
 
-export const Permainan = () => {
+export const Survei = () => {
   return (
     <>
-      <WebsiteMeta title="Permainan - Mari Kita Mulai" description="" />
+      <WebsiteMeta title="Survei - Yuk Kenali Dirimu Disini" description="" />
       <ScrollIndicator />
       <ScrollToTop />
       <Header />
-      <PermainanHero />
+      <SurveiHero />
       <Footer />
     </>
   );
