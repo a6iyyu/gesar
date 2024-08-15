@@ -2,9 +2,11 @@ import { Link } from "react-router-dom";
 
 export const DeskripsiSurvei = () => {
   return (
-    <section className="flex cursor-default flex-col justify-center">
-      <h2 className="text-2xl font-bold">Kenali Dirimu Lebih Dalam</h2>
-      <h4 className="mt-2.5 text-justify text-lg font-medium">
+    <section className="mt-7 flex cursor-default flex-col justify-center lg:mt-0">
+      <h2 className="text-center text-2xl font-bold lg:text-left">
+        Kenali Dirimu Lebih Dalam
+      </h2>
+      <h4 className="mt-2.5 text-justify text-lg font-medium [text-align-last:_center] lg:[text-align-last:_left]">
         Ikuti survei seru kami untuk mendapatkan gambaran lengkap tentang
         kepribadian dan suasana hati kamu. Dengan pertanyaan-pertanyaan yang
         simpel dan <em>insightful</em>, kamu akan mendapatkan pemahaman yang

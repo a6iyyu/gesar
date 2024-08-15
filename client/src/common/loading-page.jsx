@@ -16,7 +16,7 @@ const BounceLoading = styled.div`
   }
 `;
 
-export const MemuatHalaman = () => {
+export const LoadingPage = () => {
   return (
     <>
       <WebsiteMeta title="Sedang Memuat Halaman . . ." description="Kami sedang menyajikan konten yang terbaik untuk Anda . . ." />

@@ -9,9 +9,10 @@ export const KamiTungguAntusiasmu = () => {
           Kami Tunggu Antusiasmu!
         </h3>
         <h5 className="mt-4 cursor-default text-justify text-lg tracking-wider [text-align-last:center] lg:text-xl">
-          Menuntut ilmu di Sube jauh lebih menyenangkan&nbsp;
+          Tunggu apa lagi? Daftar dan mulai perjalanan menuju
+          kesejahteraan&nbsp;
           <br className="hidden lg:flex" />
-          dan bisa dilakukan dimana saja!
+          mental dengan konsultasi yang personal dan efektif!
         </h5>
         <span className="mt-8 flex gap-x-6">
           <Link to={`/registrasi`} className="h-fit w-fit rounded-lg bg-[#006400] px-8 py-4 font-semibold transition-all duration-300 ease-in-out hover:bg-[#017b01]">

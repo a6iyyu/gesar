@@ -2,11 +2,14 @@ import { HoverSetiapHuruf, HandleMouseEnter, HandleMouseLeave } from "@/utils/ho
 
 export const BerandaHero = () => {
   return (
-    <main className="mx-auto mb-32 mt-24 flex h-fit w-4/5 flex-col-reverse items-center justify-center gap-x-20 text-[#006400] xl:flex-row xl:justify-between">
+    <main className="mx-auto mb-32 mt-4 flex h-fit w-4/5 flex-col-reverse items-center justify-center gap-x-20 text-[#006400] xl:flex-row xl:justify-between">
       <span className="absolute right-0 top-40 -z-10 h-40 w-40 bg-[#083710] [filter:blur(7rem)]" />
       <section className="mt-10 flex h-full w-full cursor-default flex-col items-center text-justify xl:mt-0 xl:items-start">
         <h2 className="hidden text-left text-5xl font-bold [line-height:1.175] xl:inline">
-          {HoverSetiapHuruf("Kesehatan Mental Adalah Prioritas", HandleMouseEnter, HandleMouseLeave)}
+          {HoverSetiapHuruf("Kesehatan Mental", HandleMouseEnter, HandleMouseLeave)}
+        </h2>
+        <h2 className="hidden text-left text-5xl font-bold [line-height:1.175] xl:inline">
+          {HoverSetiapHuruf("Adalah Prioritas", HandleMouseEnter, HandleMouseLeave)}
         </h2>
         <h2 className="inline text-center text-4xl font-bold leading-tight md:text-5xl xl:hidden">
           Kesehatan Mental Adalah Prioritas
@@ -18,7 +21,7 @@ export const BerandaHero = () => {
           Mulai Sekarang&ensp;<i className="fa-solid fa-arrow-right text-base" />
         </button>
       </section>
-      <img src="" alt="Welcome to Gesar!" className="transition-all duration-300 ease-in-out xl:hover:scale-105" loading="lazy" />
+      <img src="/index-hero.png?url" alt="Welcome to Gesar!" className="transition-all duration-300 ease-in-out xl:hover:scale-105" loading="lazy" />
     </main>
   );
 };

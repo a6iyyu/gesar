@@ -7,7 +7,7 @@ import { ScrollToTop } from "@/common/scroll-to-top";
 import { Header } from "@/common/header";
 import { Footer } from "@/common/footer";
 import { TidakDitemukan } from "./404";
-import { MemuatHalaman } from "@/common/memuat-halaman";
+import { LoadingPage } from "@/common/loading-page";
 
 export const DetailKaroselBlog = () => {
   const { slug } = useParams();
@@ -33,7 +33,7 @@ export const DetailKaroselBlog = () => {
     })();
   }, [slug]);
 
-  if (loading) return <MemuatHalaman />;
+  if (loading) return <LoadingPage />;
   if (notFound || !MDXContent || !MDXFrontmatter) return <TidakDitemukan />;
 
   return (

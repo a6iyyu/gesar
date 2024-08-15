@@ -18,6 +18,9 @@ const GlobalStyles = createGlobalStyle`
       padding: 0;
       opacity: 1;
     }
+    ::placeholder {
+      color: #006400;
+    }
     ::-webkit-scrollbar {
       display: none !important;
     }
