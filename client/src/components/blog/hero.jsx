@@ -21,7 +21,7 @@ export const BlogHero = () => {
   }, []);
 
   return (
-    <main className="mx-auto mb-44 mt-28 flex h-fit w-4/5 cursor-default flex-col justify-center text-[#006400] lg:w-3/5">
+    <main className="mx-auto mb-36 mt-28 flex h-fit w-4/5 cursor-default flex-col justify-center text-[#006400] lg:w-3/5">
       <span className="absolute left-0 h-40 w-40 bg-[#4ea9b9] opacity-50 [filter:blur(8rem)]" />
       <span className="absolute right-0 h-40 w-40 bg-[#0aa2bd] opacity-50 [filter:blur(8rem)]" />
       <div className="mb-4 inline text-5xl font-bold">
