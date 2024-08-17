@@ -16,7 +16,6 @@ export const Registrasi = () => {
   const [registerData, setRegisterData] = useState({ username: "", email: "", password: "", confirm_password: "" });
   const [showNotification, setShowNotification] = useState({ showMessage: "", isVisible: false });
   const [XSRFToken, setXSRFToken] = useState("");
-
   
   useEffect(() => {
     MenanganiXSRF("registrasi", setXSRFToken);
@@ -36,7 +35,7 @@ export const Registrasi = () => {
         {showNotification.isVisible && <Notification title={showNotification.showMessage} onClose={() => setShowNotification({ ...showNotification, isVisible: false })} />}
         <span className="absolute left-0 top-0 h-40 w-40 bg-[#1fddff] opacity-80 [filter:blur(8rem)]" />
         <section className="flex h-full w-full flex-col items-center justify-center">
-          <img src="/logo.png?url" alt="Logo" className="w-32 italic" />
+          <img src="/logo.png?url" alt="Logo" className="w-48 italic lg:w-60" />
           <h3 className="mx-auto mt-10 h-fit w-4/5 cursor-default text-center text-3xl font-bold lg:text-4xl">
             Buat Akun
           </h3>

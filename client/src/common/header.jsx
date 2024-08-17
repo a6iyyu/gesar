@@ -19,8 +19,8 @@ export const Header = () => {
   return (
     <header className="mx-auto flex h-24 w-4/5 items-center text-[#006400] xl:h-36">
       <section className="flex h-full w-2/5 items-center">
-        <Link to="/" className="h-fit w-fit">
-          <img src="" alt="Logo" className="font-semibold" />
+        <Link to="/" className="h-fit w-48">
+          <img src="/logo.png?url" alt="Logo" className="font-semibold" />
         </Link>
       </section>
       <MenuHover className="hidden h-full w-3/5 text-lg font-semibold xl:flex xl:items-center xl:justify-end">

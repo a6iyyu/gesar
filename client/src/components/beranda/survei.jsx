@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
+import Tilt from "react-parallax-tilt";
 
 export const BerandaSurvei = () => {
   return (
     <main className="h-fit w-full bg-gradient-to-r from-[#ac906d] to-[#ba8c54] py-20 lg:pb-[7.5rem]">
       <span className="absolute left-0 top-[190rem] -z-0 h-40 w-40 bg-[#128b26] [filter:blur(8rem)]" />
       <section className="z-20 mx-auto grid w-4/5 grid-cols-1 gap-x-10 text-[#006400] lg:grid-cols-2">
-        <div></div>
+        <Tilt className="">
+          <img src="" alt="Ikuti Survei Segera!" />
+        </Tilt>
         <div className="mt-7 flex cursor-default flex-col justify-center lg:mt-0">
           <h2 className="text-center text-2xl font-bold lg:text-left">
             Kenali Dirimu Lebih Dalam

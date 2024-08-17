@@ -7,12 +7,14 @@ export const Footer = () => {
     <footer className="h-fit w-full bg-gradient-to-r from-[#141b1f] to-[#1a1f25] pb-32 pt-24 lg:-mt-10">
       <main className="mx-auto mt-10 flex h-full w-4/5 flex-col gap-x-10 text-slate-50 lg:flex-row">
         <section className="flex h-full w-full cursor-default flex-col lg:w-1/3">
-          <img src="/logo.png?url" alt="Logo" className="mx-auto w-44 font-bold italic lg:mx-0" loading="lazy" />
+          <img src="/logo.png?url" alt="Logo" className="mx-auto w-48 font-bold italic lg:mx-0" loading="lazy" />
           <h4 className="mt-7 text-center text-2xl font-semibold lg:text-left">
             Gerakan Sehat Rakyat
           </h4>
           <h5 className="mt-4 text-justify text-base font-thin [text-align-last:center] lg:text-justify lg:[text-align-last:left]">
-            Lorem ipsum dolor sit amet.
+            Sebagai wujud komitmen dalam menjaga kesehatan mental, kami berusaha
+            memajukan kesejahteraan umum untuk menunjang kesehatan memadai yang
+            sejalan dengan amanat konstitusi.
           </h5>
         </section>
         <section className="grid h-full w-full grid-cols-1 grid-rows-2 lg:w-2/3 lg:grid-cols-2 lg:grid-rows-1">
@@ -23,7 +25,7 @@ export const Footer = () => {
               Embrace Wellness
             </h3>
           </div>
-          <div className="mt-14 grid grid-cols-2 lg:mt-0">
+          <div className="mt-7 grid grid-cols-2 lg:mt-0">
             <span className="flex h-full w-full flex-col gap-y-3">
               {Menus.slice(0, 4).map((menu, i) => (
                 <h2 key={i} className="group h-fit w-fit text-slate-50 transition-all duration-300 ease-in-out">
