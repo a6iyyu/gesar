@@ -29,7 +29,7 @@ const GlobalStyles = createGlobalStyle`
     input:-webkit-autofill:focus,
     input:-webkit-autofill:active {
       transition: background-color 5000s ease-in-out 0s;
-      -webkit-text-fill-color: #fff !important;
+      -webkit-text-fill-color: #006400 !important;
     }
   }
   @media screen and (max-width: 324px) {

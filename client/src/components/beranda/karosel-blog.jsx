@@ -29,12 +29,12 @@ export const KaroselBlog = () => {
               <span className="mx-auto h-full w-[95%] flex-col items-center">
                 <img src={item.gambar} alt={item.judul} className="h-72 w-full rounded-2xl object-cover [box-shadow:0.3rem_0.3rem_0_#bcbcbc]" loading="lazy" />
                 <h2 className="group mt-4 text-justify text-xl font-bold transition-all duration-300 ease-in-out [text-align-last:center] lg:text-left lg:text-2xl lg:[text-align-last:left]">
-                  <span className="lg:bg-gradient-to-r lg:from-slate-50 lg:to-slate-50 lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
+                  <span className="lg:bg-gradient-to-r lg:from-[#006400] lg:to-[#006400] lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
                     {item.judul}
                   </span>
                 </h2>
                 <h2 className="group mt-4 text-justify text-base font-medium transition-all duration-300 ease-in-out [text-align-last:center] lg:[text-align-last:left]">
-                  <span className="lg:bg-gradient-to-r lg:from-slate-50 lg:to-slate-50 lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
+                  <span className="lg:bg-gradient-to-r lg:from-[#006400] lg:to-[#006400] lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
                     {MemendekkanKalimat(item.deskripsi, 100)}
                   </span>
                 </h2>

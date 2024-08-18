@@ -4,7 +4,7 @@ export const Footer = () => {
   const Menus = [ "Blog", "Komunitas", "Konsultasi", "Survei", "FAQ", "Tentang Kami", "Kritik & Saran"];
 
   return (
-    <footer className="h-fit w-full bg-gradient-to-r from-[#141b1f] to-[#1a1f25] pb-32 pt-24 lg:-mt-10">
+    <footer className="h-fit w-full bg-gradient-to-r from-[#141b1f] to-[#1a1f25] pb-28 pt-14">
       <main className="mx-auto mt-10 flex h-full w-4/5 flex-col gap-x-10 text-slate-50 lg:flex-row">
         <section className="flex h-full w-full cursor-default flex-col lg:w-1/3">
           <img src="/logo.png?url" alt="Logo" className="mx-auto w-48 font-bold italic lg:mx-0" loading="lazy" />

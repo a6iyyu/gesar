@@ -2,7 +2,7 @@ import { HandleMouseEnter, HandleMouseLeave, HoverSetiapHuruf } from "@/utils/ho
 
 export const FAQHero = () => {
   return (
-    <main className="mx-auto mb-44 mt-32 flex h-fit w-4/5 cursor-default flex-col items-center text-justify text-[#006400] lg:mt-36 lg:text-center">
+    <main className="mx-auto my-32 flex h-fit w-4/5 cursor-default flex-col items-center text-justify text-[#006400] lg:mt-36 lg:text-center">
       <span className="absolute left-0 top-24 z-0 h-40 w-40 bg-[#0bb7f6] [filter:blur(8rem)]" />
       <h2 className="hidden text-5xl font-bold leading-tight lg:inline">
         {HoverSetiapHuruf("Kamu ada pertanyaan?", HandleMouseEnter, HandleMouseLeave)}

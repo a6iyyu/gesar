@@ -49,7 +49,7 @@ export const PropsKaroselBlog = [
   },
   {
     id: "9",
-    gambar: "/cara-sederhana-untuk-mengelola-stres-ekonomi-dalam-kehidupan-sehari-hari.jpg?url",
+    gambar: "/cara-sederhana-untuk-mengelola-stres-ekonomi-dalam-kehidupan-sehari-hari.webp?url",
     judul: "Cara Sederhana untuk Mengelola Stres Ekonomi dalam Kehidupan Sehari-hari",
     deskripsi: "Stres ekonomi adalah kenyataan yang dihadapi banyak orang. Artikel ini menawarkan pendekatan praktis yang dapat dilakukan setiap hari untuk meredakan beban tersebut, memungkinkan Anda untuk menghadapi tantangan keuangan dengan kepala tegak.",
   },

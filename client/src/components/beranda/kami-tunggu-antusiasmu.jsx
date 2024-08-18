@@ -15,10 +15,10 @@ export const KamiTungguAntusiasmu = () => {
           mental dengan konsultasi yang personal dan efektif!
         </h5>
         <span className="mt-8 flex gap-x-6">
-          <Link to={`/registrasi`} className="h-fit w-fit rounded-lg bg-[#006400] px-8 py-4 font-semibold transition-all duration-300 ease-in-out hover:bg-[#017b01]">
+          <Link to={`/registrasi`} className="h-fit w-fit rounded-lg bg-[#006400] px-8 py-4 font-semibold transition-all duration-300 ease-in-out lg:hover:bg-[#017b01]">
             BUAT AKUN
           </Link>
-          <Link to={`/masuk`} className="h-fit w-fit rounded-lg bg-[#393333] px-8 py-4 font-semibold transition-all duration-300 ease-in-out hover:bg-[#4d4d4d]">
+          <Link to={`/masuk`} className="h-fit w-fit rounded-lg bg-[#393333] px-8 py-4 font-semibold transition-all duration-300 ease-in-out lg:hover:bg-[#4d4d4d]">
             MASUK
           </Link>
         </span>

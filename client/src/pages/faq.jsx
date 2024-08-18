@@ -4,6 +4,7 @@ import { ScrollToTop } from "@/common/scroll-to-top";
 import { Header } from "@/common/header";
 import { FAQHero } from "@/components/faq/hero";
 import { TigaPertanyaan } from "@/components/faq/tiga-pertanyaan";
+import { DaftarPertanyaanDanJawaban } from "@/components/faq/daftar-pertanyaan-dan-jawaban";
 import { Footer } from "@/common/footer.jsx";
 
 export const FAQ = () => {
@@ -15,6 +16,7 @@ export const FAQ = () => {
       <Header />
       <FAQHero />
       <TigaPertanyaan />
+      <DaftarPertanyaanDanJawaban />
       <Footer />
     </>
   );
