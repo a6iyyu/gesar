@@ -9,7 +9,7 @@ import { Footer } from "@/common/footer.jsx";
 export const Blog = () => {
   return (
     <>
-      <WebsiteMeta title="Blog - Temukan Bacaan Informatif dan Menginspirasi Anda" description="" />
+      <WebsiteMeta title="Blog - Temukan Bacaan Informatif dan Menginspirasi Anda" description="Dapatkan inspirasi dan informasi terkini yang menghadirkan bacaan terbaru untuk Anda mengenai kesehatan mental." />
       <ScrollIndicator />
       <ScrollToTop />
       <Header />

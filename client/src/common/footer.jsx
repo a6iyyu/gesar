@@ -29,7 +29,7 @@ export const Footer = () => {
             <span className="flex h-full w-full flex-col gap-y-3">
               {Menus.slice(0, 4).map((menu, i) => (
                 <h2 key={i} className="group h-fit w-fit text-slate-50 transition-all duration-300 ease-in-out">
-                  <span className="lg:bg-gradient-to-r lg:from-sky-500 lg:to-sky-500 lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
+                  <span className="lg:bg-gradient-to-r lg:from-[#007900] lg:to-[#007900] lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
                     <Link to={`/${menu.replace(/ /g, "-").toLowerCase()}`}>
                       {menu}
                     </Link>
@@ -40,7 +40,7 @@ export const Footer = () => {
             <span className="flex h-full w-full flex-col gap-y-3">
               {Menus.slice(4, 7).map((menu, i) => (
                 <h2 key={i} className="group h-fit w-fit text-slate-50 transition-all duration-300 ease-in-out">
-                  <span className="lg:bg-gradient-to-r lg:from-sky-500 lg:to-sky-500 lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
+                  <span className="lg:bg-gradient-to-r lg:from-[#007900] lg:to-[#007900] lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
                     <Link to={`/${menu.replace(/ /g, "-").replace(/&/g, "dan").toLowerCase()}`}>
                       {menu}
                     </Link>
