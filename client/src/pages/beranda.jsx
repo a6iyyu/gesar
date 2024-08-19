@@ -23,7 +23,7 @@ export const Beranda = () => {
 
   return (
     <>
-      <WebsiteMeta title="Gesar - Aplikasi Kesehatan Mental #1 di Indonesia" description="" />
+      <WebsiteMeta title="Gesar - Aplikasi Kesehatan Mental #1 di Indonesia" description="Gesar adalah platform yang didedikasikan untuk kesehatan mental Anda. Temukan dukungan, konsultasi dengan ahli, artikel edukatif, dan komunitas yang peduli untuk membantu Anda mencapai kesejahteraan mental yang lebih baik." />
       <ScrollIndicator />
       <ScrollToTop />
       <Header />

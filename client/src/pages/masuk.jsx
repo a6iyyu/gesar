@@ -25,7 +25,7 @@ export const Masuk = () => {
 
   return (
     <>
-      <WebsiteMeta title="" description="" />
+      <WebsiteMeta title="Masuk dan Mulai Konsultasi Bersama Ahli Kami" description="Masuk ke akun Anda untuk melanjutkan konsultasi, bergabung dengan komunitas, dan akses konten eksklusif tentang kesehatan mental. Jaga kesehatan mental Anda dengan Gesar." />
       <ScrollIndicator />
       <main className="grid h-[60rem] max-h-[300vh] w-full grid-cols-1 overflow-x-hidden text-[#006400] lg:max-h-[200vh] lg:grid-cols-2">
         {showNotification.isVisible && <Notification title={showNotification.showMessage} onclose={() => setShowNotification({ ...showNotification, isVisible: false })} />}

@@ -11,6 +11,7 @@ import { Survei } from "@/pages/survei";
 import { TentangKami } from "@/pages/tentang-kami.jsx";
 import { Registrasi } from "@/pages/registrasi.jsx";
 import { Masuk } from "@/pages/masuk.jsx";
+import { LupaKataSandi } from "@/pages/lupa-kata-sandi";
 
 export const Router = () => {
   return (
@@ -28,6 +29,7 @@ export const Router = () => {
         <Route path="/tentang-kami" Component={TentangKami} />
         <Route path="/registrasi" Component={Registrasi} />
         <Route path="/masuk" Component={Masuk} />
+        <Route path="/lupa-kata-sandi" Component={LupaKataSandi} />
       </Routes>
     </BrowserRouter>
   );

@@ -9,7 +9,7 @@ import { Footer } from "@/common/footer.jsx";
 export const KritikDanSaran = () => {
   return (
     <>
-      <WebsiteMeta title="Help - Kami Mendengar Keluhan dan Masukan Anda" description="" />
+      <WebsiteMeta title="Help - Kami Mendengar Keluhan dan Masukan Anda" description="Bantu kami meningkatkan layanan di Gesar dengan memberikan kritik dan saran Anda. Kami menghargai setiap masukan untuk menciptakan platform kesehatan mental yang lebih baik bagi semua." />
       <ScrollIndicator />
       <ScrollToTop />
       <Header />

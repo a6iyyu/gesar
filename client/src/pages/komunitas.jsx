@@ -8,7 +8,7 @@ import { Footer } from "@/common/footer.jsx";
 export const Komunitas = () => {
   return (
     <>
-      <WebsiteMeta title="" description="" />
+      <WebsiteMeta title="Komunitas - Bersama Merawat Kesehatan Mental" description="Bergabunglah dengan komunitas kami, tempat untuk berbagi pengalaman, mendapatkan dukungan, dan belajar bersama tentang kesehatan mental. Temukan dukungan dari sesama dan ahli di aplikasi kami." />
       <ScrollIndicator />
       <ScrollToTop />
       <Header />

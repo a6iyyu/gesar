@@ -10,7 +10,7 @@ import { Footer } from "@/common/footer.jsx";
 export const FAQ = () => {
   return (
     <>
-      <WebsiteMeta title="FAQ - Menjawab Penasaran Anda" description="" />
+      <WebsiteMeta title="FAQ - Menjawab Penasaran Anda" description="Temukan jawaban atas pertanyaan umum tentang Gesar. Pelajari lebih lanjut tentang layanan konsultasi, fitur aplikasi, dan cara bergabung dengan komunitas kesehatan mental kami." />
       <ScrollIndicator />
       <ScrollToTop />
       <Header />

@@ -9,7 +9,7 @@ export const MengenalPengembangGesar = () => {
         <h3>Berkenalan Dengan Kami</h3>
         <hr className="hidden h-1 w-1/4 rounded-full bg-[#006400] lg:inline" />
       </section>
-      <main className="mx-auto mb-20 mt-14 flex h-fit w-4/5 cursor-default flex-col text-justify text-[#006400] lg:flex-row">
+      <main className="mx-auto mt-14 flex h-fit w-4/5 cursor-default flex-col text-justify text-[#006400] lg:flex-row">
         <span className="absolute left-0 top-[70rem] h-40 w-40 bg-[#0ce6a5] opacity-50 [filter:blur(8rem)]" />
         <span className="absolute right-0 top-[70rem] h-40 w-40 bg-[#87bd0a] opacity-50 [filter:blur(8rem)]" />
         <ReactParallaxTilt className="h-80 w-full lg:h-full lg:w-1/4">

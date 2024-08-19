@@ -8,7 +8,7 @@ import { Footer } from "@/common/footer.jsx";
 export const Konsultasi = () => {
   return (
     <>
-      <WebsiteMeta title="" description="" />
+      <WebsiteMeta title="Konsultasi - Disinilah Anda Mendapatkan Kesejahteraan Mental" description="Dapatkan konsultasi kesehatan mental dengan para ahli. Mulai perjalanan Anda menuju kesejahteraan mental yang lebih baik dengan dukungan pribadi dan rahasia dari para profesional kami." />
       <ScrollIndicator />
       <ScrollToTop />
       <Header />

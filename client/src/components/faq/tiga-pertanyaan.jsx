@@ -20,7 +20,7 @@ export const TigaPertanyaan = () => {
         </div>
         <div className="flex h-full w-full flex-col">
           {PropsDaftarFAQ.slice(0, 3).map((faq, index) =>
-            <div key={faq.id} className="flex h-fit w-full cursor-pointer flex-col border-t border-y-slate-200 last:border-b" onClick={() => HandleDetails(index)}>
+            <div key={faq.id} className="flex h-fit w-full cursor-pointer flex-col border-t border-y-[#006400] last:border-b" onClick={() => HandleDetails(index)}>
               {faq.pertanyaan &&
                 <h3 className="group my-4 text-lg font-semibold transition-all duration-300 ease-in-out lg:hover:text-[#004400]">
                   <span className="lg:bg-gradient-to-r lg:from-[#006400] lg:to-[#006400] lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">

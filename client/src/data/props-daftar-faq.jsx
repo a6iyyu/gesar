@@ -12,7 +12,7 @@ export const PropsDaftarFAQ = [
 	{
     id: "3",
     pertanyaan: "Apa saja keunggulan dari Gesar?",
-    jawaban: "Kami memahami bahwa setiap individu memiliki kebutuhan yang unik, itulah sebabnya kami menawarkan layanan yang beragam mulai dari konsultasi pribadi dengan para ahli, hingga akses ke komunitas yang mendukung. Artikel dan konten edukatif kami disusun oleh pakar untuk memastikan Anda mendapatkan informasi yang tepat dan relevan. Selain itu, survei kepribadian dan psikologis kami dirancang untuk memberikan wawasan mendalam yang dapat membantu Anda memahami diri sendiri dengan lebih baik. Dengan Gesar, Anda tidak hanya mendapatkan bantuan, tetapi juga bimbingan yang komprehensif menuju kesejahteraan mental yang optimal.",
+    jawaban: "Kami memahami bahwa setiap individu memiliki kebutuhan unik, sehingga kami menawarkan layanan beragam mulai dari konsultasi dengan ahli hingga akses ke komunitas pendukung. Konten edukatif kami disusun oleh pakar untuk memberikan informasi yang relevan. Survei kepribadian kami membantu Anda memahami diri sendiri lebih baik. Dengan Gesar, Anda mendapatkan bantuan dan bimbingan komprehensif untuk kesejahteraan mental yang optimal.",
   },
 	{
     id: "4",

@@ -26,7 +26,7 @@ export const Registrasi = () => {
 
   return (
     <>
-      <WebsiteMeta title="Daftarkan Dirimu Sekarang" description="" />
+      <WebsiteMeta title="Daftarkan Dirimu Sekarang" description="Daftar sekarang di Gesar dan mulai perjalanan Anda menuju kesejahteraan mental yang lebih baik. Bergabunglah dengan komunitas yang peduli dan akses berbagai layanan konsultasi dan edukasi mental." />
       <ScrollIndicator />
       <main className="grid h-[80rem] max-h-[300vh] w-full grid-cols-1 overflow-x-hidden text-[#006400] lg:max-h-[200vh] lg:grid-cols-2">
         {showNotification.isVisible && <Notification title={showNotification.showMessage} onClose={() => setShowNotification({ ...showNotification, isVisible: false })} />}
@@ -37,7 +37,8 @@ export const Registrasi = () => {
             Buat Akun
           </h3>
           <h5 className="mx-auto mt-3 h-fit w-4/5 cursor-default text-center text-lg font-medium">
-            Jadilah bagian dari generasi unggul!
+            Daftarkan dirimu dan jadilah bagian dari perjalanan kesejahteraan
+            mental.
           </h5>
           <form onSubmit={HandleSubmit} className="mx-auto mt-10 h-fit w-4/5">
             <div className="flex flex-col">

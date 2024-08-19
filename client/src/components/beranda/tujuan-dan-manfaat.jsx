@@ -25,10 +25,10 @@ export const TujuanDanManfaat = () => {
   return (
     <main id="tujuan-dan-manfaat" className="flex w-full cursor-default flex-col bg-gradient-to-tl from-[#c1a88a] to-[#d2ac7e] pb-20 pt-14 text-[#006400]">
       <span className="absolute left-0 top-[80rem] -z-0 h-40 w-40 bg-[#128b26] [filter:blur(7rem)]" />
-      <h3 className="mx-auto mb-2.5 h-fit w-4/5 text-center text-4xl font-bold text-slate-50">
+      <h3 className="mx-auto mb-2.5 h-fit w-4/5 text-center text-4xl font-bold">
         Tujuan Program Kami
       </h3>
-      <h5 className="mx-auto mb-9 h-fit w-4/5 text-center text-2xl font-medium text-slate-50">
+      <h5 className="mx-auto mb-9 h-fit w-4/5 text-center text-2xl font-medium">
         Apa saja ya tujuan dan manfaat yang diperoleh dari Gesar? Simak yuk!
       </h5>
       <TujuanDanManfaatCard className="mx-auto grid w-4/5 grid-cols-1 gap-x-10 lg:grid-cols-3">
