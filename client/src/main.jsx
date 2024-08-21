@@ -31,6 +31,12 @@ const GlobalStyles = createGlobalStyle`
       transition: background-color 5000s ease-in-out 0s;
       -webkit-text-fill-color: #006400 !important;
     }
+    input[type="search"]::-webkit-search-decoration,
+    input[type="search"]::-webkit-search-cancel-button,
+    input[type="search"]::-webkit-search-results-button,
+    input[type="search"]::-webkit-search-results-decoration {
+      display: none;
+    }
   }
   @media screen and (max-width: 324px) {
     * {

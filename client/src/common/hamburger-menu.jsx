@@ -23,16 +23,13 @@ export const HamburgerMenu = () => {
   const Menus = ["Blog", "Komunitas","Konsultasi", "Survei", "Registrasi"];
 
   useEffect(() => {
-    const HandleHamburgerMenu = (e) => {
-      if (!e.target.closest(".hamburger-menu")) setOpen(false);
-    };
-
+    const HandleHamburgerMenu = e => !e.target.closest("#hamburger-menu") && setOpen(false);
     document.body.addEventListener("click", HandleHamburgerMenu);
     return () => document.body.removeEventListener("click", HandleHamburgerMenu);
   }, [open]);
 
   return (
-    <section className="hamburger-menu flex h-full w-3/5 items-center justify-end xl:hidden">
+    <section id="hamburger-menu" className="flex h-full w-3/5 items-center justify-end xl:hidden">
       <i className="fas fa-bars cursor-pointer text-2xl text-[#006400]" onClick={() => setOpen(!open)} />
       {open &&
         <HamburgerAnimated className="absolute top-24 z-50 h-fit w-fit rounded-xl bg-[#006400]">

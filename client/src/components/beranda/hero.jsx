@@ -21,7 +21,7 @@ export const BerandaHero = () => {
           Mulai Sekarang&ensp;<i className="fa-solid fa-arrow-right text-base" />
         </button>
       </section>
-      <img src="/index-hero.png?url" alt="Welcome to Gesar!" className="transition-all duration-300 ease-in-out xl:hover:scale-105" loading="lazy" />
+      <img src="/beranda.png?url" alt="Welcome to Gesar!" className="transition-all duration-300 ease-in-out xl:hover:scale-105" loading="lazy" />
     </main>
   );
 };
