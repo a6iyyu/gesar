@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import { PropsKonsultasi } from "@/data/props-konsultasi";
+import { PropsKonsultasiDiBeranda } from "@/data/konsultasi-di-beranda";
 
 export const GridKonsultasi = () => {
   return (
     <div className="z-10 h-fit w-full rounded-xl bg-[#fbe5ac] pb-10 text-[#006400] [box-shadow:_0.5rem_0.5rem_0_#d0be8f]">
       <span className="mx-auto flex h-fit w-[85%] flex-col py-5">
-        <img src={PropsKonsultasi[4].gambar} alt={PropsKonsultasi[4].kalimat} className="mx-auto mt-3 h-20 w-20 text-xs lg:mx-0" loading="lazy" />
-        <h3 className="mt-4 text-center text-3xl font-bold lg:text-left">{PropsKonsultasi[4].kalimat}</h3>
+        <img src={PropsKonsultasiDiBeranda[4].gambar} alt={PropsKonsultasiDiBeranda[4].kalimat} className="mx-auto mt-3 h-20 w-20 text-xs lg:mx-0" loading="lazy" />
+        <h3 className="mt-4 text-center text-3xl font-bold lg:text-left">{PropsKonsultasiDiBeranda[4].kalimat}</h3>
         <h5 className="mt-4 text-justify text-xl font-medium [text-align-last:center] lg:[text-align-last:_left]">
           Yuk, jangan ragu buat dapetin dukungan secara emosional dan
           konsultasikan keluhanmu pada tim kami. Klik di bawah buat memulai

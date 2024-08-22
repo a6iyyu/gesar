@@ -16,7 +16,7 @@ export const FilterJumlahAnggota = () => {
   };
 
   return (
-    <section onClick={() => setOpen(!open)} id="dropdown" className="ml-8 cursor-pointer border-b-2 border-b-slate-50">
+    <section onClick={() => setOpen(!open)} id="dropdown" className="ml-8 cursor-pointer border-b-2 border-b-[#006400] text-[#006400]">
       {selectedMemberRange[0]}&emsp;&emsp;<i className="fa-sharp-duotone fa-solid fa-angle-down" />
       {open &&
         <div className="absolute mt-2 rounded-lg bg-[#006400] text-slate-50">

@@ -5,7 +5,7 @@ import { ScrollToTop } from "@/common/scroll-to-top";
 import { Header } from "@/common/header";
 import { KomunitasHero } from "@/components/komunitas/hero";
 import { Manfaat } from "@/components/komunitas/manfaat";
-import { BuatKomunitas } from "@/components/komunitas/buat-komunitas";
+import { AturanKomunitas } from "@/components/komunitas/aturan";
 import { CariKomunitas } from "@/components/komunitas/cari-komunitas";
 import { Footer } from "@/common/footer.jsx";
 
@@ -26,7 +26,7 @@ export const Komunitas = () => {
       <Header />
       <KomunitasHero />
       <Manfaat />
-      <BuatKomunitas />
+      <AturanKomunitas />
       <CariKomunitas />
       <Footer />
     </>

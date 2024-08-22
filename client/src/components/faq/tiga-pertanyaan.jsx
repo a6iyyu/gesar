@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { PropsDaftarFAQ } from "@/data/props-daftar-faq";
+import { PropsDaftarFAQ } from "@/data/daftar-faq";
 
 export const TigaPertanyaan = () => {
   const [showAnswer, setShowAnswer] = useState(null);

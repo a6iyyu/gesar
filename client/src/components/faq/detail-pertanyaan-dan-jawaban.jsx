@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { PropsDaftarFAQ } from "@/data/props-daftar-faq";
+import { PropsDaftarFAQ } from "@/data/daftar-faq";
 
 export const DetailPertanyaanDanJawaban = ({ filteredAnswer }) => {
 	const [openDetail, setOpenDetail] = useState(null);

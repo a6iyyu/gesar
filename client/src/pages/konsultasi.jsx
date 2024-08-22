@@ -3,6 +3,7 @@ import { ScrollIndicator } from "@/common/scroll-indicator.jsx";
 import { ScrollToTop } from "@/common/scroll-to-top";
 import { Header } from "@/common/header";
 import { KonsultasiHero } from "@/components/konsultasi/hero";
+import { LayananKonsultasi } from "@/components/konsultasi/layanan-konsultasi";
 import { Footer } from "@/common/footer.jsx";
 
 export const Konsultasi = () => {
@@ -13,6 +14,7 @@ export const Konsultasi = () => {
       <ScrollToTop />
       <Header />
       <KonsultasiHero />
+      <LayananKonsultasi />
       <Footer />
     </>
   );

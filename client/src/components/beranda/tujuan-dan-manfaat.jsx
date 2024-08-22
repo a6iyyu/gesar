@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { PropsTujuanDanManfaat } from "@/data/props-tujuan-dan-manfaat";
+import { PropsTujuanDanManfaat } from "@/data/tujuan-dan-manfaat";
 
 const TujuanDanManfaatCard = styled.section`
   @media screen and (max-width: 3120px) {

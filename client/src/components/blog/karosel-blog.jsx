@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import Splide from "@splidejs/splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
-import { PropsKaroselBlog } from "@/data/props-karosel-blog";
+import { PropsKaroselBlog } from "@/data/karosel-blog";
 import { MemendekkanKalimat } from "@/utils/memendekkan-kalimat";
 
 export const KaroselBlog = () => {

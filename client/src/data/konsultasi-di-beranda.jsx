@@ -1,4 +1,4 @@
-export const PropsKonsultasi = [
+export const PropsKonsultasiDiBeranda = [
   {
     id: "1",
     gambar: "/anxiety.png?url",
