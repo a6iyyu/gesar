@@ -2,7 +2,7 @@ import { HoverSetiapHuruf, HandleMouseEnter, HandleMouseLeave } from "@/utils/ho
 
 export const SurveiHero = () => {
   return (
-    <main className="mx-auto mb-32 mt-24 flex h-fit w-4/5 flex-col-reverse items-center justify-center gap-x-20 text-[#006400] xl:flex-row xl:justify-between">
+    <main className="mx-auto mt-10 flex h-fit w-4/5 flex-col-reverse items-center justify-center gap-x-20 text-[#006400] xl:flex-row xl:justify-between">
       <span className="absolute right-0 top-24 -z-10 h-40 w-40 bg-[#ff85ad] [filter:blur(10rem)]" />
       <section className="mt-10 flex h-full w-full cursor-default flex-col items-center text-justify xl:mt-0 xl:items-start">
         <h2 className="hidden text-left text-5xl font-bold [line-height:1.175] xl:inline">
@@ -18,11 +18,11 @@ export const SurveiHero = () => {
           Ikuti survei psikologi kami untuk mendapatkan wawasan mendalam tentang
           kepribadian dan kondisi mental Anda.
         </h4>
-        <button id="jelajahi-sekarang" className="mt-10 h-fit w-fit cursor-pointer rounded-xl bg-[#006400] px-9 py-5 text-lg font-bold text-slate-50 transition-all duration-300 ease-in-out [box-shadow:0.3rem_0.3rem_0_#014d01] hover:bg-[#017b01] xl:hover:scale-105">
+        <button id="ambil-tes-sekarang" className="mt-10 h-fit w-fit cursor-pointer rounded-xl bg-[#006400] px-9 py-5 text-lg font-bold text-slate-50 transition-all duration-300 ease-in-out [box-shadow:0.3rem_0.3rem_0_#014d01] hover:bg-[#017b01] xl:hover:scale-105">
           Ambil Tes Sekarang&ensp;<i className="fa-solid fa-arrow-right text-base" />
         </button>
       </section>
-      <img src="" alt="Discover the Community!" className="transition-all duration-300 ease-in-out xl:hover:scale-105" loading="lazy" />
+      <img src="/survey-2.png?url" alt="Discover the Community!" className="transition-all duration-300 ease-in-out xl:hover:scale-105" loading="lazy" />
     </main>
   );
 };

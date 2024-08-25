@@ -20,7 +20,6 @@ const HamburgerAnimated = styled.div`
 
 export const HamburgerMenu = () => {
   const [open, setOpen] = useState(false);
-  const Menus = ["Komunitas","Konsultasi", "Survei", "Registrasi"];
 
   useEffect(() => {
     const HandleHamburgerMenu = e => !e.target.closest("#hamburger-menu") && setOpen(false);
@@ -33,7 +32,7 @@ export const HamburgerMenu = () => {
       <i className="fas fa-bars cursor-pointer text-2xl text-[#006400]" onClick={() => setOpen(!open)} />
       {open &&
         <HamburgerAnimated className="absolute top-24 z-50 h-fit w-fit rounded-xl bg-[#006400]">
-          {Menus.map((menu, i) =>
+          {["Komunitas","Konsultasi", "Survei", "Registrasi"].map((menu, i) =>
             <Link to={`/${menu.toLowerCase().replace(" ", "-")}`} key={i} className="grid h-full w-full cursor-pointer place-items-center px-10 py-5 font-semibold text-slate-50 transition-all duration-300 ease-in-out first:rounded-t-xl last:rounded-b-xl hover:bg-[#017b01] first:hover:rounded-t-xl last:hover:rounded-b-xl">
               {menu}
             </Link>
