@@ -9,8 +9,8 @@ export const AturanKomunitas = () => {
         <span className="h-full w-0.5 bg-[#006400]" />
       </span>
       <span className="ml-3 mt-4 flex flex-col first:mt-2">
-        <h3 className="text-2xl">{item.judul}</h3>
-        <h5 className="text-lg">{item.deskripsi}</h5>
+        <h3 className="text-xl md:text-2xl">{item.judul}</h3>
+        <h5 className="text-base md:text-lg">{item.deskripsi}</h5>
       </span>
     </div>
   );
@@ -22,10 +22,10 @@ export const AturanKomunitas = () => {
           <img src="/buat-komunitas.png?url" alt="Bangun Komunitas Anda!" loading="lazy" />
         </ReactParallaxTilt>
         <section className="flex cursor-default flex-col justify-center">
-          <h2 className="mt-6 text-center text-3xl font-bold lg:mt-0 lg:text-left">
+          <h2 className="mt-6 text-center text-2xl font-bold md:text-3xl lg:mt-0 lg:text-left">
             Panduan dan Aturan Komunitas
           </h2>
-          <section className="mt-2.5 grid grid-cols-1 text-justify text-lg font-medium">
+          <section className="mt-2.5 grid grid-cols-1 text-justify font-medium">
             {PropsAturan.map(MacamAturan)}
           </section>
         </section>

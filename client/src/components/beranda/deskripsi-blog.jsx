@@ -11,7 +11,7 @@ export const DeskripsiBlog = () => {
         kesehatan mental dengan lebih baik. Akses artikel-artikel kami dan mulai
         transformasi Anda sekarang.
       </h5>
-      <Link to="/blog" className="mx-auto mt-6 h-fit w-fit cursor-pointer rounded-xl bg-[#006400] px-9 py-5 text-lg font-bold text-slate-50 transition-all duration-300 ease-in-out [box-shadow:0.3rem_0.3rem_0_#014d01] hover:bg-[#017b01] lg:mx-0 xl:hover:scale-105">
+      <Link to="/blog" className="mx-auto mt-6 h-fit w-fit cursor-pointer rounded-xl bg-[#006400] px-9 py-5 text-sm font-bold text-slate-50 transition-all duration-300 ease-in-out [box-shadow:0.3rem_0.3rem_0_#014d01] hover:bg-[#017b01] lg:mx-0 xl:hover:scale-105">
         Lihat Selengkapnya
       </Link>
     </div>

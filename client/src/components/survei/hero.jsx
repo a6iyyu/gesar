@@ -11,15 +11,15 @@ export const SurveiHero = () => {
         <h2 className="hidden text-left text-5xl font-bold [line-height:1.175] xl:inline">
           {HoverSetiapHuruf("Lebih Dalam", HandleMouseEnter, HandleMouseLeave)}
         </h2>
-        <h2 className="inline text-center text-4xl font-bold leading-tight md:text-5xl xl:hidden">
+        <h2 className="inline text-center text-3xl font-bold leading-tight md:text-5xl xl:hidden xl:text-4xl">
           Kenali Diri Anda Lebih Dalam
         </h2>
-        <h4 className="mt-6 w-full text-xl font-medium [line-height:1.5] [text-align-last:center] md:w-3/5 xl:mt-5 xl:w-full xl:text-2xl xl:[text-align-last:left]">
+        <h4 className="mt-6 w-full text-lg font-medium [line-height:1.5] [text-align-last:center] md:w-3/5 xl:mt-5 xl:w-full xl:text-2xl xl:text-xl xl:[text-align-last:left]">
           Ikuti survei psikologi kami untuk mendapatkan wawasan mendalam tentang
           kepribadian dan kondisi mental Anda.
         </h4>
-        <button id="ambil-tes-sekarang" className="mt-10 h-fit w-fit cursor-pointer rounded-xl bg-[#006400] px-9 py-5 text-lg font-bold text-slate-50 transition-all duration-300 ease-in-out [box-shadow:0.3rem_0.3rem_0_#014d01] hover:bg-[#017b01] xl:hover:scale-105">
-          Ambil Tes Sekarang&ensp;<i className="fa-solid fa-arrow-right text-base" />
+        <button id="ambil-tes-sekarang" className="mt-10 h-fit w-fit cursor-pointer rounded-xl bg-[#006400] px-9 py-5 text-base font-bold text-slate-50 transition-all duration-300 ease-in-out [box-shadow:0.3rem_0.3rem_0_#014d01] hover:bg-[#017b01] lg:text-lg xl:hover:scale-105">
+          Ambil Tes Sekarang&ensp;<i className="fa-solid fa-arrow-right" />
         </button>
       </section>
       <img src="/survey-2.png?url" alt="Discover the Community!" className="transition-all duration-300 ease-in-out xl:hover:scale-105" loading="lazy" />

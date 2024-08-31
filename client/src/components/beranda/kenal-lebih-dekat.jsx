@@ -17,7 +17,7 @@ export const KenalLebihDekat = () => {
               diperlukan untuk mengatasi tantangan mental mereka.
             </span>
           </h4>
-          <h4 className="flex justify-center px-10 pb-10 pt-60 text-3xl font-bold text-slate-100 lg:hidden">
+          <h4 className="flex justify-center px-10 pb-10 pt-60 text-center text-3xl font-bold text-slate-100 lg:hidden">
             Tak kenal, maka tak sayang.
           </h4>
         </section>

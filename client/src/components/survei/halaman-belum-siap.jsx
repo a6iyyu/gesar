@@ -5,7 +5,7 @@ export const HalamanBelumSiap = () => {
     <>
       <div id="halaman-belum-siap" className="mx-auto my-10 h-0.5 w-4/5 rounded-full bg-[#006400]" />
       <span className="absolute left-0 top-[50rem] -z-10 h-40 w-40 bg-[#083710] [filter:blur(10rem)]" />
-      <main className="mx-auto mb-28 flex w-4/5 flex-col items-center justify-between text-[#006400] lg:flex-row">
+      <main className="mx-auto mb-28 flex w-4/5 flex-col items-center justify-between text-justify text-[#006400] [text-align-last:center] lg:flex-row lg:[text-align-last:left]">
         <img src="/unavailable.png?url" alt="Sorry, this page isn't ready!" className="font-semibold transition-all duration-300 ease-in-out lg:hover:scale-105" loading="lazy" />
         <section className="mt-8 flex h-full w-full cursor-default flex-col items-center justify-center lg:mt-0 lg:w-1/2 lg:items-start">
           <p className="h-fit w-fit text-4xl font-bold lg:text-5xl">Oops!</p>
@@ -13,7 +13,7 @@ export const HalamanBelumSiap = () => {
             Halaman ini belum siap.
           </p>
           <br />
-          <p className="text-justify text-lg font-normal lg:text-2xl">
+          <p className="text-lg font-normal lg:text-2xl">
             Kami bekerja keras untuk menyiapkan halaman ini. Terima kasih atas
             kesabaran Anda!
           </p>
